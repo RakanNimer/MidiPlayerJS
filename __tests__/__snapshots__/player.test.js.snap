@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#Player #constructor should export instantiable player 1`] = `
+Player {
+  "buffer": null,
+  "defaultTempo": 120,
+  "eventListeners": Object {},
+  "events": Array [],
+  "inLoop": false,
+  "instruments": Array [],
+  "lastTick": null,
+  "sampleRate": 5,
+  "setIntervalId": false,
+  "startTick": 0,
+  "startTime": 0,
+  "tempo": null,
+  "tick": 0,
+  "totalEvents": 0,
+  "totalTicks": 0,
+  "tracks": Array [],
+}
+`;
+
+exports[`#Player #loadArrayBuffer()  will throw when invalid midi file loaded 1`] = `"Invalid MIDI file; should start with MThd"`;
+
+exports[`#Player #play throws if called while track is playing 1`] = `"Already playing..."`;
+
+exports[`#Player #skipToPercent throws when invalid percent 1`] = `"Percent must be number between 1 and 100."`;
+
+exports[`#Player #skipToSeconds throws when argument bigger than song length 1`] = `"9007199254740991 seconds not within song time of 52"`;
