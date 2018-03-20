@@ -42,10 +42,8 @@
   "keywords": ["midi", "parser", "player"],
   "author": "Garrett Grimm",
   "license": "MIT",
-  "babel": {
-    "presets": ["es2015"],
-    "sourceMaps": "inline"
-  },
   "files": ["module/"],
-  "dependencies": {}
+  "dependencies": {
+    "buffer": "^5.1.0"
+  }
 }
