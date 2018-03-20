@@ -1,4 +1,4 @@
-const { Utils } = require("../src/");
+const { Utils } = require("../module/midiplayer");
 
 describe("#Utils", function() {
   describe("#byteToHex()", function() {

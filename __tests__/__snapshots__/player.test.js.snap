@@ -1,24 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`#Player #constructor should export instantiable player 1`] = `
-Player {
-  "buffer": null,
-  "defaultTempo": 120,
-  "eventListeners": Object {},
-  "events": Array [],
-  "inLoop": false,
-  "instruments": Array [],
-  "lastTick": null,
-  "sampleRate": 5,
-  "setIntervalId": false,
-  "startTick": 0,
-  "startTime": 0,
-  "tempo": null,
-  "tick": 0,
-  "totalEvents": 0,
-  "totalTicks": 0,
-  "tracks": Array [],
-}
+Array [
+  "sampleRate",
+  "startTime",
+  "buffer",
+  "setIntervalId",
+  "tracks",
+  "instruments",
+  "defaultTempo",
+  "tempo",
+  "startTick",
+  "tick",
+  "lastTick",
+  "inLoop",
+  "totalTicks",
+  "events",
+  "totalEvents",
+  "eventListeners",
+]
 `;
 
 exports[`#Player #loadArrayBuffer()  will throw when invalid midi file loaded 1`] = `"Invalid MIDI file; should start with MThd"`;
