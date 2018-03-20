@@ -16,7 +16,7 @@
     "demo": "serve ./ --open",
     "create-package-lock":
       "rm package-lock.json && synp --source-file yarn.lock",
-    "create-yarn-lock": "rm yarn.lock && synp --source-file package-json.json"
+    "create-yarn-lock": "rm yarn.lock && synp --source-file package-lock.json"
   },
   "devDependencies": {
     "axios": "^0.18.0",
